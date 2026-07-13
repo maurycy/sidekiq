@@ -4,6 +4,12 @@
 
 Please see [sidekiq.org](https://sidekiq.org/) for more details and how to buy.
 
+8.1.5
+---------
+
+- Coerce batch created_at to integer [#7049]
+- Fix incorrect batch total job count when using autoflush, thx Teddy!
+
 8.1.4
 ---------
 
